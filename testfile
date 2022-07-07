@@ -1,0 +1,138 @@
+{
+  "id" : 0,
+  "url" : "http://localhost:3000/A",
+  "hostname" : "localhost",
+  "ipAddress" : "127.0.0.1",
+  "groupId" : 1,
+  "title" : "A",
+  "userAgent" : "Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/69.0.3497.105 Mobile/15E148 Safari/605.1",
+  "height" : 0,
+  "searchTermFound" : false,
+  "keywords" : null,
+  "wordCount" : 6,
+  "charCount" : 24,
+  "byteCount" : 380,
+  "numberOfImages" : 0,
+  "targetLinkCount" : 3,
+  "predecessorLinks" : [ ]
+}
+{
+  "id" : 3,
+  "url" : "http://localhost:3000/D",
+  "hostname" : "localhost",
+  "ipAddress" : "127.0.0.1",
+  "groupId" : 1,
+  "title" : "D",
+  "userAgent" : "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9",
+  "height" : 1,
+  "searchTermFound" : false,
+  "keywords" : null,
+  "wordCount" : 5,
+  "charCount" : 17,
+  "byteCount" : 332,
+  "numberOfImages" : 0,
+  "targetLinkCount" : 2,
+  "predecessorLinks" : [ {
+    "bidirectional" : false,
+    "cyclic" : false,
+    "sourceId" : 0,
+    "targetId" : 3
+  } ]
+}
+{
+  "id" : 5,
+  "url" : "http://localhost:3000/J",
+  "hostname" : "localhost",
+  "ipAddress" : "127.0.0.1",
+  "groupId" : 1,
+  "title" : "J",
+  "userAgent" : "Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.98 Safari/537.36",
+  "height" : 2,
+  "searchTermFound" : false,
+  "keywords" : null,
+  "wordCount" : 5,
+  "charCount" : 17,
+  "byteCount" : 290,
+  "numberOfImages" : 0,
+  "targetLinkCount" : 1,
+  "predecessorLinks" : [ {
+    "bidirectional" : false,
+    "cyclic" : false,
+    "sourceId" : 3,
+    "targetId" : 5
+  } ]
+}
+{
+  "id" : 6,
+  "url" : "http://localhost:3000/M",
+  "hostname" : "localhost",
+  "ipAddress" : "127.0.0.1",
+  "groupId" : 1,
+  "title" : "M",
+  "userAgent" : "Mozilla/5.0 (iPhone; CPU iPhone OS 12_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) FxiOS/13.2b11866 Mobile/16A366 Safari/605.1.15",
+  "height" : 3,
+  "searchTermFound" : false,
+  "keywords" : null,
+  "wordCount" : 5,
+  "charCount" : 17,
+  "byteCount" : 332,
+  "numberOfImages" : 0,
+  "targetLinkCount" : 1,
+  "predecessorLinks" : [ {
+    "bidirectional" : false,
+    "cyclic" : false,
+    "sourceId" : 5,
+    "targetId" : 6
+  }, {
+    "bidirectional" : false,
+    "cyclic" : true,
+    "sourceId" : 6,
+    "targetId" : 3
+  } ]
+}
+{
+  "id" : 7,
+  "url" : "http://localhost:3000/N",
+  "hostname" : "localhost",
+  "ipAddress" : "127.0.0.1",
+  "groupId" : 1,
+  "title" : "N",
+  "userAgent" : "Mozilla/5.0 (iPhone9,3; U; CPU iPhone OS 10_0_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A403 Safari/602.1",
+  "height" : 4,
+  "searchTermFound" : false,
+  "keywords" : null,
+  "wordCount" : 5,
+  "charCount" : 17,
+  "byteCount" : 290,
+  "numberOfImages" : 0,
+  "targetLinkCount" : 1,
+  "predecessorLinks" : [ {
+    "bidirectional" : false,
+    "cyclic" : false,
+    "sourceId" : 6,
+    "targetId" : 7
+  } ]
+}
+{
+  "id" : 8,
+  "url" : "http://localhost:3000/H",
+  "hostname" : "localhost",
+  "ipAddress" : "127.0.0.1",
+  "groupId" : 1,
+  "title" : "H",
+  "userAgent" : "Mozilla/5.0 (Linux; Android 6.0; HTC One M9 Build/MRA58K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobile Safari/537.3",
+  "height" : 5,
+  "searchTermFound" : false,
+  "keywords" : null,
+  "wordCount" : 5,
+  "charCount" : 17,
+  "byteCount" : 248,
+  "numberOfImages" : 0,
+  "targetLinkCount" : 0,
+  "predecessorLinks" : [ {
+    "bidirectional" : false,
+    "cyclic" : false,
+    "sourceId" : 7,
+    "targetId" : 8
+  } ]
+}
